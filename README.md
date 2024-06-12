@@ -1,4 +1,4 @@
-# LeoTechLab SV06 v0.1 Firmware (15-12-2023)
+# LeoTechLab SV06 v0.2 Firmware (12-06-2024)
 
 **Follow me on YouTube: https://www.youtube.com/@LeoTechLab**
 
@@ -9,7 +9,8 @@ Part of the configuration was based on Michael Hill's work, here: https://github
 Currently this is tracking the **bugfix-2.1.x** branch.
 
 # Highlights
-- Up to date with branch **bugfix-2.1.x** (15-12-2023)
+- Added Sovol's high speed firmware settings (v2.2.0)
+- Up to date with official Marlin's branch **bugfix-2.1.x** (12-06-2024)
 - **Automatic Bed Leveling (Bilinear)**:
     - 3x3, so that it is easy to manually override the mesh if required
     - Automatically activated after powering on and after homing (G28)
@@ -30,19 +31,16 @@ Currently this is tracking the **bugfix-2.1.x** branch.
     - Configuration / Save Settings
 3. **Auto-home**
     - Motion / Homing / Auto Home
-4. **Turn on runout sensor and power recovery, save settings**
-    - Configuration / Runout Sensor ON
-    - Configuration / Power Outage ON
-5. **Auto Z-Align or manual Z align**
+4. **Auto Z-Align or manual Z align**
     - Motion / Auto Z-Align
-6. **PID Autotune for extruder and bed, save settings**
+5. **PID Autotune for extruder and bed, save settings**
     - Configuration / Advanced / Temperature / Autotune E1 PID: 200
     - Configuration / Advanced / Temperature / Autotune Bed PID: 60
-7. **Z-Probe Wizard, save settings**
+6. **Z-Probe Wizard, save settings**
     - Motion / Bed Leveling / Z Probe Wizard
-8. **ABL or input mesh manually via terminal, save settings (M500 for terminal)**
+7. **ABL or input mesh manually via terminal, save settings (M500 for terminal)**
     - Motion / Bed Leveling / Level Bed
-9. **Test print to check first layer** 
+8. **Test print to check first layer**
     - LeoCalibration.stl in the "calibration" folder
 
 Done!
